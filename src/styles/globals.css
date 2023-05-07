@@ -47,6 +47,7 @@
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
   cursor: default;
+  color: #C79A9A;
 }
 .preAlfa {
   border: 0.5px solid #3F8F00;
@@ -67,17 +68,19 @@
   cursor: pointer;
 }
 .waitlist { 
-  background: #65CFA9;
-  box-shadow: 0px 5px 20px rgba(101, 207, 169, 0.5);
-  border-radius: 8px;
+  background: linear-gradient(98.19deg, #0047FF 2.94%, #0022FF 93.48%);
+  border-radius: 88px;
   cursor: pointer;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  font-size: 12px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
 }
-.waitlist:hover{
-  box-shadow: 0px 4px 25px rgba(101, 207, 169, 1);
-}
+
 
 
 /* Hero */
@@ -134,19 +137,20 @@
 }
 .genericText{
   font-family: 'Nunito Sans', sans-serif;
-  color: #415674;
+  color: #4F4F4F;
   font-size: 15px;
 }
 .mainTitle {
-  font-family: "Raleway", sans-serif;
-  background: linear-gradient(91.85deg, #AAB3C6 -7.75%, #FFFFFF 47.47%, #9CA5B9 107.63%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  
+  font-style: normal;
+  font-weight: 700;
   font-size: 90px;
+  line-height: 110px;
   text-align: center;
-  line-height: 108px;
+  letter-spacing: -0.02em;
+
+  color: #FFFFFF;
 }
 
 /* Usage */
@@ -179,27 +183,83 @@
 
 .arrow{
   width: 90px;
-  border: 2px solid white;
+  border: 2px solid #E7B5B5;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .mainWaitlist {
-  margin: 16vh 0px;
-  background: linear-gradient(274.82deg, #000000 -15.33%, #696262 52.32%, #514242 117.2%);
-  border: 0.2px solid #FFFFFF;
-  border-radius: 8px;
-  font-family: "Nunito Sans", sans-serif;
-  padding: 5px 15px;
-  box-shadow: 0px 4px 25px rgb(211, 211, 211, 0.3);
-  transition: all 0.3s ease;
+  /* margin: 16vh 0px; */
+  padding: 10px 25px;
+  margin-right: 12px;
+
+  background: linear-gradient(98.19deg, #0047FF 2.94%, #0022FF 93.48%);
+  border-radius: 88px;
+  cursor: pointer;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
 }
-.mainWaitlist:hover {
-  box-shadow: 0px 4px 25px rgb(211, 211, 211, 0.5);
+
+.howItWorks {
+  padding: 10px 25px;
+  box-sizing: border-box;
+  border: 1px solid #0047FF;
+  border-radius: 99px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
 }
 
 
+.ourGoal {
+  padding: 200px 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 52px;
+  letter-spacing: -0.02em;
+
+
+  background: linear-gradient(90.17deg, rgba(255, 255, 255, 0.9) 2.49%, rgba(95, 70, 255, 0.9) 31.87%, rgba(255, 255, 255, 0.586523) 67.72%, rgba(255, 255, 255, 0.9) 98.09%), #FFFFFF;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+
+.contactButton {
+  background: linear-gradient(98.19deg, #0047FF 2.94%, #0022FF 93.48%);
+  border-radius: 88px;
+
+  padding: 10px;
+  width: 100%;
+
+  margin-top: 25px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  font-feature-settings: 'ss01' on, 'ss03' on, 'cv03' on, 'cv04' on, 'cv06' on, 'cv09' on;
+
+  color: #FFFFFF;
+}
 
 
 :root {
@@ -291,12 +351,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #000B28;
 }
 
 a {

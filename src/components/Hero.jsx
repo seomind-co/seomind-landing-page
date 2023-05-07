@@ -1,16 +1,17 @@
 import React from 'react';
 
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import PlayCircleFilledTwoToneIcon from '@mui/icons-material/PlayCircleFilledTwoTone';
 
 const Usage = () => {
     return (
         <div className='relative z-10 flex justify-center items-center mb-5'>
           <div className='box box1'>Join the Waitlist</div>
-          <div className='arrow'><p className='absolute -mt-0.5'><ArrowForwardIcon /></p></div>
+          <div className='arrow'><p className='absolute -mt-0.5'><ArrowForwardIcon sx={{ color: "#E7B5B5" }} /></p></div>
           <div className='box box2'>Input Your Domain</div>
-          <div className='arrow'><p className='absolute -mt-0.5'><ArrowForwardIcon /></p></div>
+          <div className='arrow'><p className='absolute -mt-0.5'><ArrowForwardIcon sx={{ color: "#E7B5B5" }} /></p></div>
           <div className='box box3'>Analysis your  product with AI</div>
-          <div className='arrow'><p className='absolute -mt-0.5'><ArrowForwardIcon /></p></div>
+          <div className='arrow'><p className='absolute -mt-0.5'><ArrowForwardIcon sx={{ color: "#E7B5B5" }} /></p></div>
           <div className='box box4'>Increase your SEO rate</div>
         </div>
     )
@@ -33,7 +34,10 @@ const Hero = () => {
         <h1 className='mainTitle'>Seo Management Software</h1>
         <h2 className='genericText'>Big SEO results for startups</h2>
 
-        <button className='mainWaitlist'>JOIN THE WAITLIST</button>
+        <div className='flex justify-center items-center mt-10 mb-44'>
+          <button className='mainWaitlist'>Join the Wailist</button>
+          <button className='howItWorks flex justify-center items-center'>How it works <PlayCircleFilledTwoToneIcon sx={{ color: "#0125FF", marginLeft: "10px" }} /></button>
+        </div>
       </div>
       <Usage />
     </div>

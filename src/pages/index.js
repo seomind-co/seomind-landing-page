@@ -6,6 +6,12 @@ import styles from '@/styles/Home.module.css';
 import Changelog from '@/components/changelog';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
+import Services from '@/components/Services';
+import OurGoal from '@/components/OurGoal';
+import Footer from '@/components/Footer';
+import HowItWorks from '@/components/HowItWorks';
+import JoinWaitlist from '@/components/JoinWaitlist';
+import ForWhom from '@/components/ForWhom';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +26,7 @@ export default function Home() {
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Nunito+Sans:wght@600&family=Pacifico&family=Permanent+Marker&family=Raleway:wght@700&family=Rubik+Iso&family=Source+Code+Pro:ital,wght@0,400;0,900;1,500&family=Ubuntu&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script&family=Montserrat:wght@200;700&family=Nunito+Sans:wght@600&family=Pacifico&family=Permanent+Marker&family=Raleway:wght@700&family=Rubik+Iso&family=Ubuntu&display=swap" rel="stylesheet" />
       </Head>
       
       <main className="container max-w-5xl mx-auto">
@@ -28,6 +34,30 @@ export default function Home() {
         <Navbar />
         <Hero />
       </main>
+
+      <div className="bg-white -mt-[105px]">
+        <div className='container max-w-5xl mx-auto'>
+          <Services />
+        </div>
+      </div>
+
+      <div className="bg-[#000B28]">
+        <div className='container max-w-5xl mx-auto'>
+          <OurGoal />
+        </div>
+      </div>
+
+      <div className="bg-white">
+        <div className='container max-w-5xl mx-auto'>
+          <HowItWorks />
+          <hr />
+          <ForWhom />
+          <hr />
+          <JoinWaitlist />
+          <Footer />
+        </div>
+      </div>
+    
     </>
   )
 }

@@ -6,8 +6,8 @@ import ArrowCircleRightOutlinedIcon from '@mui/icons-material/ArrowCircleRightOu
 import Search from "../../public/search.png";
 import Refine from "../../public/refine.png";
 import Develop from "../../public/develop.png";
-import Arrow1 from "../../public/howItWorksArrow1.png";
-import Arrow2 from "../../public/howItWorksArrow2.png";
+import Arrow1 from "../../public/howItworksArrow1.png";
+import Arrow2 from "../../public/howItworksArrow2.png";
 
 const HowItWorks = () => {
   return (

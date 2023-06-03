@@ -80,7 +80,7 @@ const Services = () => {
     ]
   return (
     <div className='text-black pt-60 pb-24'>
-        <h1 className='font-extrabold text-4xl font-[montserrat] text-center'>Services & Technologies</h1>
+        <h1 className='font-extrabold text-6xl font-[montserrat] text-center'>Services & Technologies</h1>
         <p className='font-light mt-5 text-sm font-[montserrat] text-center text-[#4F4F4F]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
         <div className='grid grid-cols-3 gap-12 mt-24'>

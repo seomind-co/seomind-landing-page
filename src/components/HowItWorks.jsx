@@ -13,7 +13,7 @@ const HowItWorks = () => {
   return (
     <div className='py-16'>
         
-        <h1 className='font-extrabold text-4xl font-[montserrat] text-center text-black'>How it Works</h1>
+        <h1 className='font-extrabold text-6xl font-[montserrat] text-center text-black'>How it Works</h1>
 
         <div className='flex justify-between items-center mt-16 gap-16'>
             

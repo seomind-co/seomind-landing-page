@@ -38,7 +38,7 @@ const JoinWaitlist = () => {
             <div className='mt-16'>
                 <FormControlLabel control={<Checkbox defaultChecked />} label="I agree to Privacy Policy and Tems of Use" />
             </div>
-            <button className='contactButton transition-all duration-300 hover:text-[#FFFFFF] hover:bg-[#0022FF]'>Contact with us now</button>
+            <button className='contactButton transition-all duration-300 hover:text-[#0047FF] hover:bg-[#FFFFFF] border-2 border-[#0047FF]'>Contact with us now</button>
         </div>
         
         <div className='flex justify-center items-center mt-24'>

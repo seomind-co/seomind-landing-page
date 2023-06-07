@@ -11,10 +11,10 @@ import DashboardReporting from "../../public/service-dashboard-reporting.png";
 import SeoBacklink from "../../public/service-seo-backlink.png";
 
 
-const ServiceCards = ({ name, topics, desc, icon, color, key }) => {
+const ServiceCards = ({ name, topics, desc, icon, color }) => {
 
     return (
-        <div key={key} className={`rounded-b-3xl cursor-default transition-all duration-300 hover:shadow-2xl hover:shadow-black/20`}>
+        <div className={`rounded-b-3xl cursor-default transition-all duration-300 hover:shadow-2xl hover:shadow-black/20`}>
             <div style={{ backgroundImage: color }} className='w-full h-1 transition-all duration-300 backdrop-grayscale hover:backdrop-grayscale-0' />
             <div className='p-12'>
                 <div style={{ backgroundImage: color }} className='flex justify-center items-center rounded-full p-3 w-[61px] h-[61px] shadow-lg shadow-slate-400'>

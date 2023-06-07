@@ -63,7 +63,7 @@ const ForWhom = () => {
 
                 <div className='flex justify-center items-center gap-2 mt-32 z-30'>
                   {
-                    forWhom.map((item, i) => item.id == currentIndex ? <div className='w-4 h-4 bg-blue-300 cursor-pointer rounded-full'></div> : <div onClick={() => setCurrentIndex(item.id)} className='w-4 h-4 bg-white border-2 cursor-pointer border-gray-500/50 rounded-full'></div>)
+                    forWhom.map((item, i) => item.id == currentIndex ? <div key={i} className='w-4 h-4 bg-blue-300 cursor-pointer rounded-full'></div> : <div key={i} onClick={() => setCurrentIndex(item.id)} className='w-4 h-4 bg-white border-2 cursor-pointer border-gray-500/50 rounded-full'></div>)
                   }
                 </div>
               </div>

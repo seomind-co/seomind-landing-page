@@ -15,8 +15,8 @@ const Footer = () => {
         <hr />
         <div className='flex justify-between items-center py-8'>
             <div className='flex justify-start items-center'>
-              <Image src={Logo} width={45} />
-              <h1 className='navbarTitle'>SEORA</h1>
+              <Image src={Logo} width={57} />
+              <h1 className='navbarTitle'>SEOMIND</h1>
             </div>
 
             <h1 className='navText mr-5'>SOLUTION</h1>

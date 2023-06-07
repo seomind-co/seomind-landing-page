@@ -5,7 +5,7 @@ import PlayCircleFilledTwoToneIcon from '@mui/icons-material/PlayCircleFilledTwo
 
 const Usage = () => {
     return (
-        <div className='relative z-10 flex justify-center items-center mb-5'>
+        <div className='absolute z-10 flex justify-center items-center -bottom-[86.5px]'>
           <div className='box box1'>Join the Waitlist</div>
           <div className='arrow'><p className='absolute -mt-0.5'><ArrowForwardIcon sx={{ color: "#E7B5B5" }} /></p></div>
           <div className='box box2'>Input Your Domain</div>
@@ -35,8 +35,8 @@ const Hero = () => {
         <h2 className='genericText'>Big SEO results for startups</h2>
 
         <div className='flex justify-center items-center mt-10 mb-44'>
-          <button className='mainWaitlist'>Join the Wailist</button>
-          <button className='howItWorks flex justify-center items-center'>How it works <PlayCircleFilledTwoToneIcon sx={{ color: "#0125FF", marginLeft: "10px" }} /></button>
+          <button className='mainWaitlist transition-all duration-300 hover:text-[#0047FF] hover:bg-[#FFFFFF]'>Join the Wailist</button>
+          <button className='howItWorks flex justify-center items-center active:bg-[#0047FF]'>How it works <PlayCircleFilledTwoToneIcon sx={{ color: "#0125FF", marginLeft: "10px" }} /></button>
         </div>
       </div>
       <Usage />

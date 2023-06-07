@@ -26,7 +26,7 @@ const Footer = () => {
             <div className='flex justify-end items-center gap-4'>
                 <div className='flex items-center'>
                     <MailOutlineOutlinedIcon />
-                    <p>hello@seomind.com</p>
+                    <p className='ml-2'>hello@seomind.com</p>
                 </div>
                 <Image src={English} />
             </div>

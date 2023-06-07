@@ -9,6 +9,9 @@ import EmojiEmotionsOutlinedIcon from '@mui/icons-material/EmojiEmotionsOutlined
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
+
 const JoinWaitlist = () => {
   return (
     <div className='grid grid-cols-2 text-black mb-20 mt-10'>
@@ -33,10 +36,9 @@ const JoinWaitlist = () => {
             </div>
 
             <div className='mt-16'>
-                <input type="checkbox" name="policy" id='policy' className='mr-5 bg-white' />
-                <label for="policy">I agree to Privacy Policy and Tems of Use</label>
+                <FormControlLabel control={<Checkbox defaultChecked />} label="I agree to Privacy Policy and Tems of Use" />
             </div>
-            <button className='contactButton'>Contact with us now</button>
+            <button className='contactButton transition-all duration-300 hover:text-[#FFFFFF] hover:bg-[#0022FF]'>Contact with us now</button>
         </div>
         
         <div className='flex justify-center items-center mt-24'>

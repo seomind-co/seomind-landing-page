@@ -29,13 +29,13 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script&family=Montserrat:wght@200;700&family=Nunito+Sans:wght@300;400;600&family=Pacifico&family=Permanent+Marker&family=Raleway:wght@700&family=Rubik+Iso&family=Ubuntu&display=swap" rel="stylesheet" />
       </Head>
       
-      <main className="container max-w-5xl mx-auto">
+      <main className="container max-w-5xl mx-auto max-h-screen h-screen">
         <Changelog />
         <Navbar />
         <Hero />
       </main>
 
-      <div className="bg-white -mt-[105px]">
+      <div className="bg-white">
         <div className='container max-w-5xl mx-auto'>
           <Services />
         </div>

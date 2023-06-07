@@ -54,7 +54,7 @@ const ForWhom = () => {
                     return (
                       <div key={i} className={`${position} flex flex-col items-center absolute`}>
                         <h2 className='font-raleway font-bold text-[32px] mb-8'>{item.title}</h2>
-                        <p className='font-nunito text-[16px] font-light text-center max-w-[80%]'>{item.description}</p>
+                        <p className='font-nunito text-[16px] font-light text-center max-w-[40%]'>{item.description}</p>
                       </div>
                     )
                   })
